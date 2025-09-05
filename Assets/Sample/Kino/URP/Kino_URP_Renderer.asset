@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4849409394114610447
+--- !u!114 &-2354555091785180057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab40ef0296f774b37864154aaae1e725, type: 3}
-  m_Name: AquaEffectFeature
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 11500000, guid: d0d9d5a945207404b90b06f3bfeadfe5, type: 3}
+  m_Name: AquaEffectFeatureRG
+  m_EditorClassIdentifier: Assembly-CSharp::AquaEffectFeatureRG
   m_Active: 1
 --- !u!114 &-722005463912913896
 MonoBehaviour:
@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
-  m_Name: URP_Renderer
+  m_Name: Kino_URP_Renderer
   m_EditorClassIdentifier: 
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
@@ -64,10 +64,11 @@ MonoBehaviour:
     probeSamplingDebugTexture: {fileID: 0}
     probeVolumeBlendStatesCS: {fileID: 0}
   m_RendererFeatures:
-  - {fileID: -4849409394114610447}
   - {fileID: -722005463912913896}
-  m_RendererFeatureMap: f13a5b6dd96fb3bc1864941ddbebfaf5
+  - {fileID: -2354555091785180057}
+  m_RendererFeatureMap: 1864941ddbebfaf5679c0e769ef052df
   m_UseNativeRenderPass: 0
+  xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   m_AssetVersion: 3
   m_PrepassLayerMask:
